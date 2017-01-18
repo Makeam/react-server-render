@@ -4,11 +4,9 @@ import TextBox from '../ui/TextBox';
 
 const BlogItem = ({props}) => (
     DOM.div(
-        null,
-        [
-            React.createElement(ImageBox, props),
-            React.createElement(TextBox, props)
-        ]
+        null
+        , React.createElement(ImageBox, props)
+        , React.createElement(TextBox, props)
     )
 );
 
