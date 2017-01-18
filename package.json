@@ -1,0 +1,30 @@
+{
+  "name": "react-server-render",
+  "version": "1.0.0",
+  "description": "React Server Render Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Makeam/react-server-render.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Makeam/react-server-render/issues"
+  },
+  "homepage": "https://github.com/Makeam/react-server-render#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "lodash": "^4.17.4",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-register": "^6.18.0"
+  }
+}
